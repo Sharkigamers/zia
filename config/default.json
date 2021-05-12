@@ -1,0 +1,50 @@
+{
+  "loggers": [
+    {
+      "path": "modules/Logger/Logger",
+      "conf": {
+        "output": "./log.txt"
+      }
+    }
+  ],
+  "connection_wrapper": {
+    "path": "modules/ssl/SSL",
+    "conf": {
+      "certificate_path": "certificate/cert.pem",
+      "key_path": "certificate/key.pem"
+    }
+  },
+  "parser": {
+    "path": "modules/Parser/Parser",
+    "conf": {
+    }
+  },
+  "handlers": [
+    {
+      "path": "mod/fileloader",
+      "conf": {
+        "load": [
+          "txt",
+          "html",
+          "php",
+          "js",
+          "jpg",
+          "png",
+          "bmp",
+          "wav",
+          "mp3",
+          "flac"
+        ]
+      }
+    },
+    {
+      "path": "modules/phpCgi/phpCgi"
+    },
+    {
+      "path": "mod/jsminifyr"
+    }, 
+    {
+      "path": "modules/Get/Get"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sharkigamers/delivery/Semester_5/B-YEP-500-PAR-5-1-zia-emmanuel.blineau/Zia-Docs/include/zia/Zia.hpp
+cstdint
+-
+string
+-
+memory
+-
+vector
+-
+map
+-
+optional
+-
+any
+-
+type_traits
+-
+tuple
+-
+
+/home/sharkigamers/delivery/Semester_5/B-YEP-500-PAR-5-1-zia-emmanuel.blineau/modules/Get/Get.cpp
+Get.hpp
+/home/sharkigamers/delivery/Semester_5/B-YEP-500-PAR-5-1-zia-emmanuel.blineau/modules/Get/Get.hpp
+
+/home/sharkigamers/delivery/Semester_5/B-YEP-500-PAR-5-1-zia-emmanuel.blineau/modules/Get/Get.hpp
+../../Zia-Docs/include/zia/Zia.hpp
+/home/sharkigamers/delivery/Semester_5/B-YEP-500-PAR-5-1-zia-emmanuel.blineau/Zia-Docs/include/zia/Zia.hpp
+iostream
+-
+fstream
+-
+

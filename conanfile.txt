@@ -1,0 +1,10 @@
+[requires]
+boost/1.71.0@conan/stable
+
+[generators]
+cmake
+cmake_find_package
+cmake_paths
+
+[options]
+Qt:shared=True
